@@ -33,6 +33,7 @@ valueObject:set_condition(property, conditionFunc)
 # 마치며
 근데 왜 이름이 -가 됐지
 업데이트는 많이 못합니다.
+
 챗GPT로 도움을 받았습니다.
 
 by sanghyeog79
