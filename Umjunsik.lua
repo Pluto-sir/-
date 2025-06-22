@@ -1,19 +1,14 @@
 local module = {}
 
--- 엄준식을 저장할 테이블
 local umjunsiks = {}
 
--- 새로운 엄준식 생성 함수
 function module.umjunsik(name, value)
-	-- 엄준식 객체 생성 및 초기화
 	local valueObject = {}
 
-	-- 값 설정 (초기 값)
 	for key, val in pairs(value) do
 		valueObject[key] = val
 	end
 
-	-- 구독 관리 테이블
 	valueObject._subscriptions = {}
 
 	-- 속성 변경 감지 및 구독 처리
