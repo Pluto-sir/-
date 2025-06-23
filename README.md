@@ -5,8 +5,8 @@
 # API
 
 용어:
-umjunsik - 값
-junsik - 값(umjunsik)의 줄임말
+ummjunsik - 값
+junsik - 값(ummjunsik)의 줄임말
 
 umjunsik(name, value)
 새로운 값을 만든다
